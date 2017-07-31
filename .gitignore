@@ -1,8 +1,15 @@
+### Travis ###
+CHANGELOG.md
+
 ### Code Coverage ###
 coverage.txt
 
 ### Go ###
 # Binaries for programs and plugins
+bin/
+dist/
+pkg/
+symbolizer
 *.exe
 *.dll
 *.so
