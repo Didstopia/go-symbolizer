@@ -26,6 +26,7 @@ go get github.com/goreleaser/goreleaser
 Build binaries:
 
 ```sh
+touch CHANGELOG.md
 goreleaser --snapshot --rm-dist
 ```
 
