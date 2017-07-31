@@ -3,6 +3,7 @@ coverage.txt
 
 ### Go ###
 # Binaries for programs and plugins
+symbolizer
 *.exe
 *.dll
 *.so
