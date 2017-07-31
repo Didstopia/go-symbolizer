@@ -11,9 +11,22 @@ A modern crash log symbolication utility for iOS, watchOS, tvOS and macOS.
 
 _To be implemented._
 
-## Building
+## Development
+
+Install dependencies:
 
 ```sh
+go get -t -v ./...
+go get github.com/golang/lint/golint
+go get github.com/goreleaser/goreleaser
+```
+
+---
+
+Build binaries:
+
+```sh
+touch CHANGELOG.md
 goreleaser --snapshot --rm-dist
 ```
 
