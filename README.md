@@ -11,6 +11,12 @@ A modern crash log symbolication utility for iOS, watchOS, tvOS and macOS.
 
 _To be implemented._
 
+## Building
+
+```sh
+goreleaser --snapshot --rm-dist
+```
+
 ## License
 
 See [LICENSE.txt](LICENSE.txt).

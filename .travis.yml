@@ -21,7 +21,7 @@ install:
   - golint
   - go test -race -coverprofile=coverage.txt -covermode=atomic
 
-# Test, update changelog and build the binaries
+# Test, update changelog and build binaries
 script:
   - go vet
   - golint
@@ -29,7 +29,7 @@ script:
   - test -n "$GITHUB_TOKEN" && github_changelog_generator --token $GITHUB_TOKEN
   - go build
 
-# Upload code coverage and release binaries
+# Upload code coverage and build release binaries
 after_success:
   - bash <(curl -s https://codecov.io/bash)
   - test -n "$TRAVIS_TAG" && curl -sL https://git.io/goreleaser | bash
