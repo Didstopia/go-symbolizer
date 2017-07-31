@@ -1,7 +1,7 @@
 # .goreleaser.yml
 
 # General customization
-project_name: Symbolizer
+project_name: symbolizer
 
 # Build customization
 builds:
