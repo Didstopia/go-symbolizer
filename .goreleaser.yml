@@ -27,11 +27,7 @@ builds:
       - goos: darwin
         goarch: 386
       - goos: windows
-        goarch: 386
-        goarch: amd64
       - goos: linux
-        goarch: 386
-        goarch: amd64
 
 # Archive customization
 archive:
